@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'poppins';
+    background-color: rgb(249, 247, 244);
+    outline: none;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 247, 244);
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-sm-6 {
+    width: 50%;
+    padding: 15px;
+  }
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    
+}
+
+.col-3{
+    text-align: center;
+}
+
+i{
+    color:rgb(249, 247, 244);
+    margin-bottom: 1%;
+    font-size: 280%;
+}
+
+h6{
+    margin-top: 3%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+h4{
+    margin-top: 5%;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.col-6{
+    text-align:center ;
+}
+
+input{
+    margin: 1%;
+    border: none;
+    font-size: large;
+    width: 80%;
+    height: 11%;
+    outline: none;
+   
+}
+
+textarea{
+    border: none;
+    margin: 1%;
+}
+
+
+button{
+    font-size: large;
+    margin-left: 1%;
+}
+body{
+    background-color: rgb(249, 247, 244);
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    
+}
+
+.col-3{
+    text-align: center;
+}
+
+i{
+    color: #8e8b8b;
+    margin-bottom: 1%;
+    font-size: 280%;
+}
+
+h6{
+    margin-top: 3%;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+h4{
+    margin-top: 5%;
+    font-weight: bold;
+    margin-left: 1%;
+    text-transform: uppercase;
+    border: #7c6b6b;
+}
+
+input{
+    margin: 1%;
+    border: none;
+    font-size: large;
+    width: 80%;
+    height: 11%;
+    text-transform: uppercase;
+}
+
+textarea{
+    border: none;
+    margin: 1%;
+    text-transform: uppercase;
+}
+
+
+button{
+    font-size: large;
+    margin-left: 1%;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+   
+    text-transform: uppercase;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  input[type="submit"] {
+    background-color: #fff;
+    color: rgb(12, 12, 12);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+
+@media only screen and (max-width: 768px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+      }
+      
+    .container{
+        width: 100%;
+        padding: auto;
+    }
+    .col-3{
+        width: 100%;
+        padding: auto;
+    }
+    .col-sm-6{
+        width: 100%;
+        padding: auto;
+    }
+}
